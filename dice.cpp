@@ -31,7 +31,9 @@ int main()
 			alpha-=prob[i-1];
 			i++;
 		}
-		cout<<i<<",";
+		cout<<i;
+		if (r!=2)
+		   cout<<",";
 		if (((i%2==1)and(r<2))or((i%2==0)and(r==2)))
 		{
 			cout<<endl<<"You lose!";
